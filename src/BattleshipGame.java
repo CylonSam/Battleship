@@ -91,7 +91,6 @@ public class BattleshipGame {
 
     //manages turns
     public static void turn (String[][] map,int[] ships, ArrayList<String> playerG, ArrayList<String> cpuG) {
-        //int playerShips = score[0], cpuShips = score[1];
         Scanner input = new Scanner(System.in);
         while (ships[0] > 0 && ships[1] > 0){
             int x = -1, y = -1;
